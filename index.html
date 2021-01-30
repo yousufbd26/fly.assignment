@@ -108,11 +108,7 @@
 
 
 
-        <div id="transaction">
-            <h1>Successfull</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus dolores nihil qui, aperiam iure itaque vero magnam voluptatem necessitatibus! Commodi temporibus voluptatem dolore harum ullam praesentium sed vero ratione unde?</p>
-        </div>
-    </section>
+        
     <!--Thank You-->
 
     <script>
@@ -149,7 +145,7 @@
             calculateTotal();
         }
         
-        //Cost
+        //-------
         function calculateTotal(){
             const firstClassTicketInput = document.getElementById("fc-ticketCount");
             const firstClassTicketCount = parseInt(firstClassTicketInput.value);
@@ -168,14 +164,7 @@
         }
         
 
-        //HideBookingForm
-        const BookingBtn = document.getElementById("BookNow");
-        BookingBtn.addEventListener("click", function(){
-            const formArea = document.getElementById("booking-form");
-            formArea.style.display = "none";
-            const transArea = document.getElementById("transaction");
-            transArea.style.display = "block";
-        })
+        
      </script>
 </body>
 

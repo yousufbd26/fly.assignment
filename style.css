@@ -6,14 +6,7 @@
     list-style-type: none;
 }
 
-#tranformation{
-    background-color: white;
-    display: none;
-    padding: 20px;
-    margin-top: 30px;
-    width: 650px;
-    text-shadow: #3352F2;
-    }
+
 
 body{
     font-family: 'Roboto', sans-serif;
